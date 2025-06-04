@@ -1,0 +1,102 @@
+[
+  {
+    "id": 1,
+    "name": "Deportivo Alavés",
+    "badge": "https://upload.wikimedia.org/wikipedia/en/3/3e/Deportivo_Alav%C3%A9s_logo.svg"
+  },
+  {
+    "id": 2,
+    "name": "Athletic Club",
+    "badge": "https://upload.wikimedia.org/wikipedia/en/9/98/Club_Athletic_Bilbao_logo.svg"
+  },
+  {
+    "id": 3,
+    "name": "Atlético de Madrid",
+    "badge": "https://upload.wikimedia.org/wikipedia/en/f/f4/Atletico_Madrid_2017_logo.svg"
+  },
+  {
+    "id": 4,
+    "name": "FC Barcelona",
+    "badge": "https://upload.wikimedia.org/wikipedia/en/4/47/FC_Barcelona_%28crest%29.svg"
+  },
+  {
+    "id": 5,
+    "name": "Real Betis",
+    "badge": "https://upload.wikimedia.org/wikipedia/en/9/9e/Real_Betis_logo.svg"
+  },
+  {
+    "id": 6,
+    "name": "RC Celta de Vigo",
+    "badge": "https://upload.wikimedia.org/wikipedia/en/1/12/RC_Celta_de_Vigo_logo.svg"
+  },
+  {
+    "id": 7,
+    "name": "RCD Espanyol",
+    "badge": "https://upload.wikimedia.org/wikipedia/en/5/56/Rcd_espanyol_logo.svg"
+  },
+  {
+    "id": 8,
+    "name": "Getafe CF",
+    "badge": "https://upload.wikimedia.org/wikipedia/en/7/7f/Getafe_CF_logo.svg"
+  },
+  {
+    "id": 9,
+    "name": "Girona FC",
+    "badge": "https://upload.wikimedia.org/wikipedia/en/9/90/Girona_FC_logo.svg"
+  },
+  {
+    "id": 10,
+    "name": "UD Las Palmas",
+    "badge": "https://upload.wikimedia.org/wikipedia/en/5/5e/UD_Las_Palmas_logo.svg"
+  },
+  {
+    "id": 11,
+    "name": "CD Leganés",
+    "badge": "https://upload.wikimedia.org/wikipedia/en/6/6e/CD_Legan%C3%A9s_logo.svg"
+  },
+  {
+    "id": 12,
+    "name": "RCD Mallorca",
+    "badge": "https://upload.wikimedia.org/wikipedia/en/8/8f/RCD_Mallorca_logo.svg"
+  },
+  {
+    "id": 13,
+    "name": "CA Osasuna",
+    "badge": "https://upload.wikimedia.org/wikipedia/en/2/2e/CA_Osasuna_logo.svg"
+  },
+  {
+    "id": 14,
+    "name": "Rayo Vallecano",
+    "badge": "https://upload.wikimedia.org/wikipedia/en/1/1f/Rayo_Vallecano_logo.svg"
+  },
+  {
+    "id": 15,
+    "name": "Real Madrid CF",
+    "badge": "https://upload.wikimedia.org/wikipedia/en/5/56/Real_Madrid_CF.svg"
+  },
+  {
+    "id": 16,
+    "name": "Real Sociedad",
+    "badge": "https://upload.wikimedia.org/wikipedia/en/f/f1/Real_Sociedad_logo.svg"
+  },
+  {
+    "id": 17,
+    "name": "Real Valladolid",
+    "badge": "https://upload.wikimedia.org/wikipedia/en/3/3c/Real_Valladolid_logo.svg"
+  },
+  {
+    "id": 18,
+    "name": "Sevilla FC",
+    "badge": "https://upload.wikimedia.org/wikipedia/en/3/3f/Sevilla_FC_logo.svg"
+  },
+  {
+    "id": 19,
+    "name": "Valencia CF",
+    "badge": "https://upload.wikimedia.org/wikipedia/en/c/ce/Valencia_CF_logo.svg"
+  },
+  {
+    "id": 20,
+    "name": "Villarreal CF",
+    "badge": "https://upload.wikimedia.org/wikipedia/en/7/70/Villarreal_CF_logo.svg"
+  }
+]
