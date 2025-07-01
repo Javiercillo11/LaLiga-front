@@ -1,16 +1,22 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { IndexComponent } from './index.component';
+import { IndexModalFormComponent } from './components/index-modal-form.component';
+import { FormsModule } from '@angular/forms';
+
 
 @NgModule({
   declarations: [
-    IndexComponent
+    IndexComponent,
+    IndexModalFormComponent
   ],
   imports: [
-    CommonModule
+    CommonModule,
+    FormsModule
   ],
   exports: [
-    IndexComponent
+    IndexComponent,
+    IndexModalFormComponent
   ]
 })
 export class IndexModule { }

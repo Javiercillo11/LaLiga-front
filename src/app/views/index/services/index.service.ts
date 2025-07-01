@@ -15,4 +15,17 @@ export class IndexService {
   getAllTeams(): Observable<Teams[]> {
     return this.http.get<Teams[]>(this.url);
   }
+
+  postTeams(team: Teams): Observable<Teams> {
+    return this.http.post<Teams>(this.url, team);
+  }
+
+  putTeams(teamId: number, updatedTeam: Teams): Observable<Teams> {
+    return this.http.put<Teams>(`${this.url}/${teamId}`, updatedTeam);
+  }
+
+  deleteTeams(teamId: number): Observable<void> {
+    return this.http.delete<void>(`${this.url}/${teamId}`);
+}
+
 }

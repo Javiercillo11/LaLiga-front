@@ -1,12 +1,25 @@
-<div *ngIf="spinning">Load Teams</div>
+<div *ngIf="spinning">Cargando equipos...</div>
 
-<!-- <div class="logo">
-    <img src="https://www.reasonwhy.es/media/cache/destacada/laliga-nueva-identidad-reposicionamiento.jpg" alt="">
-</div> -->
+<!-- Botón para crear equipo -->
+<button (click)="openModal()">Crear equipo</button>
 
 <ul>
-    <li *ngFor="let team of teams">
-        <img [src]="team.badge" [alt]="team.name">
-        <span>{{ team.name }}</span>
-    </li>
+  <li *ngFor="let team of teams">
+    <img [src]="team.badge" [alt]="team.name" width="50" />
+    <span>{{ team.name }}</span>
+
+    <!-- Popover simulado -->
+    <div class="popover">
+      <button (click)="openModal(team)">✏️ Editar</button>
+      <button (click)="deleteTeam(team.id)">🗑️ Eliminar</button>
+    </div>
+  </li>
 </ul>
+
+<!-- Modal -->
+<app-index-modal-form 
+  *ngIf="modalVisible"
+  [team]="selectedTeam"
+  (close)="closeModal()"
+  [modalVisible]="modalVisible"
+></app-index-modal-form>

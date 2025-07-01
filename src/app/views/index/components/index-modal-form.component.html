@@ -1,0 +1,15 @@
+<!-- Modal overlay -->
+<div class="modal-overlay" *ngIf="modalVisible" (click)="cancel()">
+  <!-- Evita cerrar el modal si clickeas dentro del contenido -->
+  <div class="modal-content" (click)="$event.stopPropagation()">
+    <h3>{{ team ? 'Editar Equipo' : 'Crear Equipo' }}</h3>
+
+    <form (ngSubmit)="submitForm()">
+      <input [(ngModel)]="formData.name" name="name" required placeholder="Nombre" />
+      <input [(ngModel)]="formData.badge" name="badge" placeholder="URL del badge" />
+
+      <button type="submit">{{ team ? 'Guardar' : 'Crear' }}</button>
+      <button type="button" (click)="cancel()">Cancelar</button>
+    </form>
+  </div>
+</div>

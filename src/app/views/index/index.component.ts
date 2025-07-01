@@ -12,6 +12,8 @@ export class IndexComponent {
   teams: Teams[] = [];
   spinning = true;
   error = '';
+  modalVisible = false;
+  selectedTeam: Teams | null = null;
 
   constructor(
     private indexService: IndexService
@@ -26,6 +28,27 @@ export class IndexComponent {
       error: (err) => {
         this.error = err.message;
         this.spinning = false;
+      }
+    });
+  }
+
+  openModal(team?: Teams) {
+    this.selectedTeam = team || null;
+    this.modalVisible = true;
+  }
+
+  closeModal() {
+    this.modalVisible = false;
+    this.selectedTeam = null;
+  }
+
+  deleteTeam(teamId: number) {
+    this.indexService.deleteTeams(teamId).subscribe({
+      next: () => {
+        this.teams = this.teams.filter(t => t.id !== teamId);
+      },
+      error: (err) => {
+        this.error = err.message;
       }
     });
   }
